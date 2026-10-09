@@ -1,0 +1,4 @@
+Q: Briefly explain how running applications locally helps in DevOps workflows.
+
+ANSWER : 
+  Local development allows developers and DevOps engineers to build, test and verify an application before deploying it to a production server. It helps identify configuration, dependency, networking and application problems early. Docker also provides a consistent environment, which reduces the "works on my machine" problem.

@@ -1,0 +1,19 @@
+Q: Explain one real-world use case where exposing a local application is useful.
+
+ANS :
+
+The local application was exposed to the internet using ngrok. The application was running on port 8080, and ngrok created a public HTTPS URL that forwarded requests to the local application.
+
+Local application:
+    http://localhost:8080
+
+Public URL:
+    https://credibly-alone-astound.ngrok-free.dev/
+
+Command used:
+    ngrok http 8080
+
+Real-world use case:
+    Exposing a local application is useful when a developer needs to share a work-in-progress application with a client, teammate, tester, or instructor without deploying it to a production server.
+
+    For example, a developer can run an application locally and use ngrok to give a tester a temporary public URL. The tester can access the application from another network and provide feedback.
